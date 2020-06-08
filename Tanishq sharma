@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a,b;
+printf("\nenter the value of a and b:");
+printf("\nbefore swapping the numbers");
+scanf("\n%d",&a);
+scanf("\n%d",&b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf("\nafter swapping the numbers");
+printf("a=%d",a);
+printf("b=%d",b);
+return 0;
+}
